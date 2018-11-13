@@ -1,0 +1,63 @@
+header, section, div {
+font-weight: bold;
+clear: both;
+float: left;
+margin: 3px;
+}
+body {
+    background-image: url("http://linkbusiness.info/wp-content/uploads/2018/03/light-wallpaper-pattern-blue-and-white-pattern-wallpaper-light-blue-with-white-open-trellis-wallpaper-blue-and-white-china-pattern-wallpaper-light-yellow-pattern-wallpaper.jpg");
+ }
+
+ header {
+     background: darkorange;
+     color: white;
+     font-size: 50px;
+ }
+
+ .container {
+background: rgb(251, 235, 201); 
+color: green;
+padding: 20px;
+padding-bottom: 120px;
+width: 50%;
+font-size: 18px;
+ }
+ 
+ .numbox {
+     background-color: lightgreen;
+     color: rgb(41, 27, 59);
+     font-size: 50px;
+     width: 250px;
+     float: left;
+     height: 75px;
+ }
+
+ .results {
+    background-color: aqua;
+    color: black;
+    font-size: 15px;
+    position: sticky;
+    left: 10px;
+    height: 100px;
+
+
+ }
+ img {
+     width: 100px;
+     height: 100px;
+     padding: 3px;
+ }
+#plain-text {
+     background-color: teal;
+     color: white;
+     font-size: 15px;
+     padding: 10px, 10px, 10px, 10px;
+    width: 300px;
+ }
+ #total {
+    background-color: teal;
+    color: white;
+    font-size: 36px;
+    width: 300px;
+    padding-bottom: 50px;
+ }
