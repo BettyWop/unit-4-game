@@ -1,33 +1,35 @@
 header, section, div {
 font-weight: bold;
-clear: both;
-float: left;
+/* clear: both;
+float: left; */
 margin: 3px;
 }
 body {
-    background-image: url("http://linkbusiness.info/wp-content/uploads/2018/03/light-wallpaper-pattern-blue-and-white-pattern-wallpaper-light-blue-with-white-open-trellis-wallpaper-blue-and-white-china-pattern-wallpaper-light-yellow-pattern-wallpaper.jpg");
+background-image: url("https://images.homedepot-static.com/productImages/5533b6d9-37b4-4e8d-9aae-655ef6b9c49e/svn/chesapeake-wallpaper-has01233sam-64_1000.jpg");
  }
 
  header {
      background: darkorange;
      color: white;
      font-size: 50px;
+     width: 500px;
  }
 
- .container {
-background: rgb(251, 235, 201); 
-color: green;
-padding: 20px;
-padding-bottom: 120px;
-width: 50%;
-font-size: 18px;
+ .instructions {
+    background: rgb(251, 235, 201); 
+    color: green;
+    padding: 20px;
+    padding-bottom: 120px;
+    font-size: 18px;
+    width: 500px;
+
  }
  
  .numbox {
      background-color: lightgreen;
      color: rgb(41, 27, 59);
      font-size: 50px;
-     width: 250px;
+     /* width: 250px; */
      float: left;
      height: 75px;
  }
@@ -36,11 +38,7 @@ font-size: 18px;
     background-color: aqua;
     color: black;
     font-size: 15px;
-    position: sticky;
-    left: 10px;
-    height: 100px;
-
-
+    float: left;
  }
  img {
      width: 100px;
@@ -60,4 +58,8 @@ font-size: 18px;
     font-size: 36px;
     width: 300px;
     padding-bottom: 50px;
+ }
+
+ .image, .score-container {
+     clear: both;
  }
